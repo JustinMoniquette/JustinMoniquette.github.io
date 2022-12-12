@@ -18,7 +18,9 @@ body{
     max-width: 100%;
 }
 
-
+h2{
+    line-height: 140%;
+}
 .center{
     display: block;
     margin-left: auto;
