@@ -133,6 +133,14 @@ body.active .wrapper .section{
     width: 100%;
 }
 
+.wrapper{
+    width: 100%;
+}
+.images{
+    max-width: 100%;
+   height: auto;
+}
+
 /*Page content*/
 
 /*Home/Header*/
@@ -302,5 +310,17 @@ Footer a:visited {
     color: #0072b1;
 }
 
+
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    #writing{
+        column-count: 1;
+    }
+}
 
 
