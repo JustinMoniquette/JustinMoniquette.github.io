@@ -168,7 +168,7 @@ margin-right: auto;
     width: 100%;
 }
 
-#about, #projects, #writing, #Contact{
+#about, #projects, #writing, #Contact, #Articles{
     width: 100%;
         /*top right bottom left*/
         padding: 0px 25px 100px 40px;
@@ -321,6 +321,59 @@ Footer a:link {
 
 Footer a:visited {
     color: #0072b1;
+}
+
+/*gallery grid*/
+.row {
+    margin: 8px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #0c7db1;
+    padding: 10px;
+    color:white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#Articles a {
+    color: inherit;
+}
+#Articles hr {
+    width: 200px;
+    margin-bottom: 15px;;
 }
 
 
